@@ -9,7 +9,7 @@ public class BookQuestion68{
 		int dot = url.indexOf('.');
 		String siteName = url.substring (dot + 1 );
 		int dot2 = siteName.indexOf('.');
-		String siteName2 = siteName.substring (0, dot2 + 1);
+		String siteName2 = siteName.substring (0, dot2 );
 
 		System.out.println ("The sitename is " + siteName2);
 	}
